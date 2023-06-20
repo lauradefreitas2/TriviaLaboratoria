@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <div id="quiz" class="quiz-section">
+        <div id="tempo"></div>
+        <div id="pergunta1">
+            <p>Pergunta 1: Qual é a banda britânica conhecida pelos sucessos "Yellow", "Clocks" e "Viva la Vida"?</p>
+            <label for="resposta1a">
+                <input type="radio" name="pergunta1" id="resposta1a" value="a"> Coldplay <br>
+            </label>
+            <label for="resposta1b">
+                <input type="radio" name="pergunta1" id="resposta1b" value="b"> Imagine Dragons <br>
+            </label>
+            <label for="resposta1c">
+                <input type="radio" name="pergunta1" id="resposta1c" value="c"> Pink Floyd <br>
+            </label>
+        </div>
+
+        <div id="pergunta2">
+            <p>Pergunta 2: Qual é a banda de rock conhecida pelos hits "Sweet Child o' Mine" e "November Rain"?</p>
+            <label for="resposta2a">
+                <input type="radio" name="pergunta2" id="resposta2a" value="a"> Iron Maiden <br>
+            </label>
+            <label for="resposta2b">
+                <input type="radio" name="pergunta2" id="resposta2b" value="b"> Metallica <br>
+            </label>
+            <label for="resposta2c">
+                <input type="radio" name="pergunta2" id="resposta2c" value="c"> Guns N' Roses <br>
+            </label>
+        </div>
+
+        <div id="pergunta3">
+            <p>Pergunta 3: Qual desses artistas é conhecido como "Rei do Pop"?</p>
+            <label for="resposta3a">
+                <input type="radio" name="pergunta3" id="resposta3a" value="a"> Michael Jackson <br>
+            </label>
+            <label for="resposta3b">
+                <input type="radio" name="pergunta3" id="resposta3b" value="b"> Elvis Presley <br>
+            </label>
+            <label for="resposta3c">
+                <input type="radio" name="pergunta3" id="resposta3c" value="c"> Bob Marley <br>
+            </label>
+        </div>
+
+        <!-- Botão para verificar respostas -->
+        <button type="button" onclick="verificarRespostas()">Verificar Respostas</button>
+        <div id="resultado"></div>
+    </div>
+</body>
+
+</html>
