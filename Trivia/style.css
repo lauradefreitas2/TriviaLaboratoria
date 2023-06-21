@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #4B0082;
+    color: #FFFF00;
+    text-align: center;
+    margin: 0;
+    padding: 1em box border-box;
+    font-family: Cambria, arial, helvetica;
+
+
+    /*box-sizing border box para padding nao alterar área do conteúdo, indica que o tamanho agora levará em conta até a borda */
+}
+
+h1 {
+    color: deeppink;
+    font-size: 100px;
+    font-weight: bold;
+
+    p {
+        font-weight: bold;
+        line-height: 35px
+    }
+}
+
+label {
+    color: #00FA9A;
+    font-weight: bold;
+    accent-color: deeppink;
+
+}
+
+input,
+button {
+    font: 400 18px Roboto, sans-serif;
+    color: deeppink;
+    font-weight: bold;
+    background-color: #FFD750;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0.8em;
+    border: none;
+    border-radius: 12px
+}
